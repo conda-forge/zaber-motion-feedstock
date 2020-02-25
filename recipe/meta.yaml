@@ -35,6 +35,7 @@ requirements:
     - python
     - protobuf
     - rx
+    - pywin32 >=227  # [win and py>=38]
 
 test:
   imports:
