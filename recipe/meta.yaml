@@ -1,5 +1,5 @@
 {% set name = "zaber-motion" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.com/zaber-core-libs/zaber-motion-lib/-/archive/v{{ version }}/zaber-motion-lib-v{{ version }}.tar.gz
-  sha256: 1631d707c03478420d6a34b42bfa455534f5f398ee5b8bb9cfdb888fb4573ef4
+  sha256: 0276031aba8fca6fe693be0ff150288bc70ecda0250c809c35397b7524942eb4
   folder: src/zaber-motion
   patches:
     - no_bindings_install.patch
