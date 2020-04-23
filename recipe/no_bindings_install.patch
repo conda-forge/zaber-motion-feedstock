@@ -20,7 +20,7 @@ index 05c2b683..e18fd961 100644
 -    module_name = "zaber_motion_bindings_{}".format(os_system)
 -    return importlib.import_module(module_name).load_library(lib_name)  # type: ignore
 +    lib_name = "zaber-motion-lib".format(ext)
-+    return cdll.LoadLibrary(name)
++    return cdll.LoadLibrary(lib_name)
  
  
  lib = _load_library()
