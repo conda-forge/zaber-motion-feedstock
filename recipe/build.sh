@@ -6,7 +6,7 @@ cd src/zaber-motion
 export GO111MODULE=on
 protoc -I=. --go_out="internal" protobufs/main.proto
 
-zaber_motion_libname=zaber-motion-lib-${GOOS}-${GOARCH}
+zaber_motion_libname=zaber-motion-lib
 zaber_motion_lib=${zaber_motion_libname}${SHLIB_EXT}
 zaber_motion_header=${zaber_motion_libname}.h
 go build -buildmode=c-shared -o ./build/${zaber_motion_lib}
