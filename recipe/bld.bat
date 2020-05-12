@@ -36,8 +36,3 @@ if errorlevel 1 exit 1
 cd ..
 cd ..
 
-rem It seems that windows has a hard time finding the zaber motion library
-rem therefore, i'm just moving it to the site packages directory
-rem This seems to only be a problem for Windows Python + 3.8
-rem copy build\%zaber_motion_lib% %SP_DIR%\zaber_motion\.
-rem if errorlevel 1 exit 1
