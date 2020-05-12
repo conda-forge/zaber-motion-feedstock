@@ -1,11 +1,11 @@
 diff --git a/py/zaber_motion/zaber_motion/bindings.py b/py/zaber_motion/zaber_motion/bindings.py
-index 05c2b683..afc481b5 100644
+index 05c2b683..96cdf09d 100644
 --- a/py/zaber_motion/zaber_motion/bindings.py
 +++ b/py/zaber_motion/zaber_motion/bindings.py
 @@ -1,8 +1,9 @@
  from ctypes import c_void_p, c_int, c_int64, c_uint8, CFUNCTYPE
 +from ctypes import cdll
-+import ctypes
++import ctypes.util
  from typing import Any
  import platform
  import sys
