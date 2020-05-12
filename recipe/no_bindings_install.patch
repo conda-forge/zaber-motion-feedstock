@@ -1,5 +1,5 @@
 diff --git a/py/zaber_motion/zaber_motion/bindings.py b/py/zaber_motion/zaber_motion/bindings.py
-index 05c2b683..e18fd961 100644
+index 05c2b683..5cd3f3ad 100644
 --- a/py/zaber_motion/zaber_motion/bindings.py
 +++ b/py/zaber_motion/zaber_motion/bindings.py
 @@ -1,8 +1,8 @@
@@ -12,19 +12,19 @@ index 05c2b683..e18fd961 100644
  
  
  def _load_library() -> Any:
-@@ -20,9 +20,8 @@ def _load_library() -> Any:
+@@ -20,9 +20,12 @@ def _load_library() -> Any:
      if os_system == "darwin":
          ext = ".dylib"
  
 -    lib_name = "zaber-motion-lib-{}-{}{}".format(os_system, arch, ext)
 -    module_name = "zaber_motion_bindings_{}".format(os_system)
 -    return importlib.import_module(module_name).load_library(lib_name)  # type: ignore
-+    lib_name = "zaber-motion-lib" + ext
++    lib_name = "zaber-motion-lib".format(ext)
 +    # On windows, since Python 3.8 you need an extra call to find_library
 +    # https://github.com/beetbox/pyacoustid/issues/54
 +    if sys.platform == 'win32':
 +        libname = ctypes.util.find_library(lib_name)
-+    return cdll.LoadLibrary(lib_name)
++    return cdll.LoadLibrary(name)
  
  
  lib = _load_library()
