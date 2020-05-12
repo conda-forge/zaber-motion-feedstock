@@ -31,7 +31,6 @@ requirements:
     - libprotobuf
     - protobuf
     - protoc-gen-go
-    - pywin32  # [win]
   run:
     - python
     - protobuf

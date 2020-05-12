@@ -1,10 +1,11 @@
 diff --git a/py/zaber_motion/zaber_motion/bindings.py b/py/zaber_motion/zaber_motion/bindings.py
-index 05c2b683..5cd3f3ad 100644
+index 05c2b683..afc481b5 100644
 --- a/py/zaber_motion/zaber_motion/bindings.py
 +++ b/py/zaber_motion/zaber_motion/bindings.py
-@@ -1,8 +1,8 @@
+@@ -1,8 +1,9 @@
  from ctypes import c_void_p, c_int, c_int64, c_uint8, CFUNCTYPE
 +from ctypes import cdll
++import ctypes
  from typing import Any
  import platform
  import sys
@@ -12,7 +13,7 @@ index 05c2b683..5cd3f3ad 100644
  
  
  def _load_library() -> Any:
-@@ -20,9 +20,12 @@ def _load_library() -> Any:
+@@ -20,9 +21,12 @@ def _load_library() -> Any:
      if os_system == "darwin":
          ext = ".dylib"
  
