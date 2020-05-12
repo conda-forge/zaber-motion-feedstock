@@ -16,7 +16,7 @@ source:
 build:
   # For some reason, python 2.7 doesn't work, too lazy for now
   skip: true  # [py==27]
-  number: 1
+  number: 2
 
 requirements:
   build:
