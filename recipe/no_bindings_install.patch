@@ -20,6 +20,10 @@ index 05c2b683..e18fd961 100644
 -    module_name = "zaber_motion_bindings_{}".format(os_system)
 -    return importlib.import_module(module_name).load_library(lib_name)  # type: ignore
 +    lib_name = "zaber-motion-lib" + ext
++    # On windows, since Python 3.8 you need an extra call to find_library
++    # https://github.com/beetbox/pyacoustid/issues/54
++    if sys.platform == 'win32':
++        libname = ctypes.util.find_library(lib_name)
 +    return cdll.LoadLibrary(lib_name)
  
  
