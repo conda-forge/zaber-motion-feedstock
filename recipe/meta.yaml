@@ -1,5 +1,5 @@
 {% set name = "zaber-motion" %}
-{% set version = "1.1.2" %}
+{% set version = "1.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -16,7 +16,7 @@ source:
 build:
   # For some reason, python 2.7 doesn't work, too lazy for now
   skip: true  # [py==27]
-  number: 3
+  number: 0
 
 requirements:
   build:
