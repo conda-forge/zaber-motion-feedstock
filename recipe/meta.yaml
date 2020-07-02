@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.com/zaber-core-libs/zaber-motion-lib/-/archive/v{{ version }}/zaber-motion-lib-v{{ version }}.tar.gz
-  sha256: 6f8ca0df2d5903c80c78c5f041caed3f6f3fa99af657243cbb44b78e57954fff
+  sha256: 539d55b241b39520aaa8fec614e80521bc7c8538833cb68cdde5cb79e85f2ef0
   folder: src/zaber-motion
   patches:
     - no_bindings_install.patch
