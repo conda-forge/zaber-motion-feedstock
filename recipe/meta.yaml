@@ -14,9 +14,7 @@ source:
     - dont_specify_python_3_in_executable_name.patch
 
 build:
-  # For some reason, python 2.7 doesn't work, too lazy for now
-  skip: true  # [py==27]
-  number: 0
+  number: 1
 
 requirements:
   build:
