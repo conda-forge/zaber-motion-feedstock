@@ -5,7 +5,7 @@ Home: https://gitlab.com/zaber-core-libs/zaber-motion-lib
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A Python library used to operate Zaber devices.
 
