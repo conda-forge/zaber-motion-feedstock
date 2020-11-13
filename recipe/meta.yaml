@@ -12,6 +12,7 @@ source:
   patches:
     - no_bindings_install.patch
     - dont_specify_python_3_in_executable_name.patch
+    - usr_bin_env_protoc_gen_mypy.patch
 
 build:
   number: 0

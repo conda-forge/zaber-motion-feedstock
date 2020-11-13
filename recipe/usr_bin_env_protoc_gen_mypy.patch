@@ -1,0 +1,10 @@
+diff --git a/tools/protoc-gen-mypy b/tools/protoc-gen-mypy
+index 67c47971..cb9addcf 100755
+--- a/tools/protoc-gen-mypy
++++ b/tools/protoc-gen-mypy
+@@ -1,4 +1,4 @@
+-#!/usr/bin/python3
++#!/usr/bin/env python3
+ # -*- coding: utf-8 -*-
+ import sys
+ from mypy_protobuf import main
