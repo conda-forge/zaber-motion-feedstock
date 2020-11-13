@@ -30,6 +30,7 @@ requirements:
     - libprotobuf
     - protobuf
     - protoc-gen-go
+    - mypy-protobuf
   run:
     - python
     - protobuf
