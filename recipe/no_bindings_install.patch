@@ -1,14 +1,14 @@
 diff --git a/py/zaber_motion/zaber_motion/bindings.py b/py/zaber_motion/zaber_motion/bindings.py
-index 05c2b683..9a6f61e8 100644
+index ac7a1a3b..ff801cdf 100644
 --- a/py/zaber_motion/zaber_motion/bindings.py
 +++ b/py/zaber_motion/zaber_motion/bindings.py
-@@ -1,18 +1,13 @@
+@@ -1,22 +1,12 @@
  from ctypes import c_void_p, c_int, c_int64, c_uint8, CFUNCTYPE
 +from ctypes import cdll
 +import ctypes.util
  from typing import Any
  import platform
- import sys
+-import sys
 -import importlib
  
  
@@ -16,14 +16,18 @@ index 05c2b683..9a6f61e8 100644
 -    is64bit = sys.maxsize > 2**32
      os_system = platform.system().lower()
 -    os_machine = platform.machine().lower()
--    if os_machine.startswith("aarch64") or os_machine.startswith("arm"):
--        arch = "arm64" if is64bit else "arm"
+-
+-    if os_system == "darwin":
+-        arch = "uni"
 -    else:
--        arch = "amd64" if is64bit else "386"
+-        if os_machine.startswith("aarch64") or os_machine.startswith("arm"):
+-            arch = "arm64" if is64bit else "arm"
+-        else:
+-            arch = "amd64" if is64bit else "386"
  
      ext = ""
      if os_system == "linux":
-@@ -20,9 +15,12 @@ def _load_library() -> Any:
+@@ -24,9 +14,11 @@ def _load_library() -> Any:
      if os_system == "darwin":
          ext = ".dylib"
  
@@ -33,8 +37,7 @@ index 05c2b683..9a6f61e8 100644
 +    lib_name = "zaber-motion-lib" + ext
 +    # On windows, since Python 3.8 you need an extra call to find_library
 +    # https://github.com/beetbox/pyacoustid/issues/54
-+    if sys.platform == 'win32':
-+        lib_name = ctypes.util.find_library(lib_name)
++    lib_name = ctypes.util.find_library(lib_name)
 +    return cdll.LoadLibrary(lib_name)
  
  
