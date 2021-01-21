@@ -2,3 +2,9 @@ macos_min_version:             # [osx]
   - 10.10                      # [osx]
 MACOSX_DEPLOYMENT_TARGET:      # [osx]
   - 10.10                      # [osx]
+# cgo feedstock has not been migrated yet to the new compilers.
+c_compiler_version:        # [aarch64 or ppc64le]
+  - 8                      # [aarch64 or ppc64le]
+cxx_compiler_version:      # [aarch64 or ppc64le]
+  - 8                      # [aarch64 or ppc64le]
+
