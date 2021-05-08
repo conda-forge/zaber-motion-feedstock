@@ -1,0 +1,13 @@
+diff --git a/protobufs/main.proto b/protobufs/main.proto
+index 60dd3286..566cde11 100644
+--- a/protobufs/main.proto
++++ b/protobufs/main.proto
+@@ -1,7 +1,7 @@
+ syntax = "proto3";
+ package zaber.motion.protobufs;
+ 
+-option go_package = "protobufs;zaber_motion_protobufs";
++option go_package = "./protobufs;zaber_motion_protobufs";
+ 
+ // ---- Enums ----
+ 

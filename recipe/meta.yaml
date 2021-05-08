@@ -12,6 +12,7 @@ source:
   patches:
     - no_bindings_install.patch
     - dont_specify_python_3_in_executable_name.patch
+    - protoc_path.diff
 
 build:
   number: 1
