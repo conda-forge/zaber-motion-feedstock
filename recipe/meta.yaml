@@ -12,9 +12,10 @@ source:
   patches:
     - no_bindings_install.patch
     - dont_specify_python_3_in_executable_name.patch
+    - protoc_path.diff
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -34,6 +35,7 @@ requirements:
     - python
     - protobuf
     - rx
+    - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.9") }}  # [osx and x86_64]
 
 test:
   imports:
