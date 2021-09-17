@@ -14,7 +14,7 @@ source:
     - dont_specify_python_3_in_executable_name.patch
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
