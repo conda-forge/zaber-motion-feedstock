@@ -5,7 +5,7 @@ channel_sources:
 channel_targets:
 - conda-forge main
 libprotobuf:
-- '3.18'
+- '3.19'
 m2w64_c_compiler:
 - m2w64-toolchain
 m2w64_cxx_compiler:
