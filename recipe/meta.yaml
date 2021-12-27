@@ -10,8 +10,9 @@ source:
   sha256: aa7c3c302e59da1ff6be7b4294f762a9f2df48a8fc7d4f2c65d8f839afe1a89d
   folder: src/zaber-motion
   patches:
-    - no_bindings_install.patch
-    - dont_specify_python_3_in_executable_name.patch
+    - patches/no_bindings_install.patch
+    - patches/dont_specify_python_3_in_executable_name.patch
+    - patches/remove_pypi_requirements.patch
 
 build:
   number: 0
