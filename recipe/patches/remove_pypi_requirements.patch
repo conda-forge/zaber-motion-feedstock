@@ -7,13 +7,13 @@ index d830c99b..655f88ea 100644
              'twine==1.15.0'
          ],
 -        ':platform_system=="Windows"': [
--            'zaber_motion_bindings_windows==2.8.0'
+-            'zaber_motion_bindings_windows==2.8.1'
 -        ],
 -        ':platform_system=="Linux"': [
--            'zaber_motion_bindings_linux==2.8.0'
+-            'zaber_motion_bindings_linux==2.8.1'
 -        ],
 -        ':platform_system=="Darwin"': [
--            'zaber_motion_bindings_darwin==2.8.0'
+-            'zaber_motion_bindings_darwin==2.8.1'
 -        ]
      }
  )
