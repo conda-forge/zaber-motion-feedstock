@@ -15,7 +15,7 @@ source:
     - patches/remove_pypi_requirements.patch
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -30,7 +30,7 @@ requirements:
     - libprotobuf
     - protobuf
     - protoc-gen-go
-    - mypy-protobuf  1
+    - mypy-protobuf
   run:
     - python
     - protobuf
