@@ -13,6 +13,7 @@ source:
     - patches/no_bindings_install.patch
     - patches/dont_specify_python_3_in_executable_name.patch
     - patches/remove_pypi_requirements.patch
+    - patches/mypy_protobuf_2.patch
 
 build:
   number: 1
