@@ -1,0 +1,12 @@
+diff --git a/tools/protoc-gen-mypy b/tools/protoc-gen-mypy
+index cb9addcf..af229119 100755
+--- a/tools/protoc-gen-mypy
++++ b/tools/protoc-gen-mypy
+@@ -1,6 +1,6 @@
+ #!/usr/bin/env python3
+ # -*- coding: utf-8 -*-
+ import sys
+-from mypy_protobuf import main
++from mypy_protobuf.main import main
+ if __name__ == '__main__':
+     sys.exit(main())
