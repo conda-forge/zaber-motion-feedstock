@@ -1,7 +1,16 @@
 diff --git a/py/zaber_motion/setup.py b/py/zaber_motion/setup.py
-index d830c99b..655f88ea 100644
+index 0dfc29f0..6566b01c 100644
 --- a/py/zaber_motion/setup.py
 +++ b/py/zaber_motion/setup.py
+@@ -34,7 +34,7 @@ setup(
+     keywords='',
+     python_requires='>=3.6',
+     install_requires=[
+-        'protobuf==3.19.1',
++        'protobuf>=3.19.1',
+         'rx>=3.0.0'
+     ],
+     extras_require={
 @@ -46,14 +46,5 @@ setup(
              'wheel',
              'twine==1.15.0'
