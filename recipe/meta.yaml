@@ -16,7 +16,7 @@ source:
     - patches/mypy_protobuf_2.patch
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -25,12 +25,15 @@ requirements:
     - {{ compiler('m2w64_cxx') }}  # [win]
     - {{ compiler('c') }}          # [not win]
     - {{ compiler('cxx') }}        # [not win]
+    - protoc-gen-go
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+    - libprotobuf                            # [build_platform != target_platform]
   host:
     - python
     - pip
     - libprotobuf
     - protobuf
-    - protoc-gen-go
     - mypy-protobuf
   run:
     - python
