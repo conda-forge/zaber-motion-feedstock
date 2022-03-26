@@ -1,5 +1,5 @@
 {% set name = "zaber-motion" %}
-{% set version = "2.10.1" %}
+{% set version = "2.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.com/zaber-core-libs/zaber-motion-lib/-/archive/v{{ version }}/zaber-motion-lib-v{{ version }}.tar.gz
-  sha256: 247d2d8bcefecd2da09efd561b23bd99d23ea8f5ec2cd1aa978a97646ef3d4b9
+  sha256: 51e78ff8c2f1e0bed92ea7d7b7d2b35e653683b56621fb56cfae953e43bf6b5f
   folder: src/zaber-motion
   patches:
     - patches/no_bindings_install.patch
@@ -16,7 +16,7 @@ source:
     - patches/mypy_protobuf_2.patch
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
