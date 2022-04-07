@@ -16,13 +16,13 @@ index 0dfc29f0..6566b01c 100644
              'twine==1.15.0'
          ],
 -        ':platform_system=="Windows"': [
--            'zaber_motion_bindings_windows==2.11.1'
+-            'zaber_motion_bindings_windows==2.11.2'
 -        ],
 -        ':platform_system=="Linux"': [
--            'zaber_motion_bindings_linux==2.11.1'
+-            'zaber_motion_bindings_linux==2.11.2'
 -        ],
 -        ':platform_system=="Darwin"': [
--            'zaber_motion_bindings_darwin==2.11.1'
+-            'zaber_motion_bindings_darwin==2.11.2'
 -        ]
      }
  )
