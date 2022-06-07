@@ -24,5 +24,6 @@ protoc -I=. --python_out="py/zaber_motion/zaber_motion" \
 touch py/zaber_motion/zaber_motion/protobufs/__init__.py
 
 pushd py/zaber_motion
+$PYTHON $RECIPE_DIR/filter_setup.py
 $PYTHON -m pip install . -vv
 popd
