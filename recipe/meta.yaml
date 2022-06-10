@@ -28,7 +28,7 @@ requirements:
     - protoc-gen-go
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
-    - libprotobuf                            # [build_platform != target_platform]
+    - libprotobuf
   host:
     - python
     - pip
