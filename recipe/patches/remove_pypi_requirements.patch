@@ -1,28 +1,32 @@
 diff --git a/py/zaber_motion/setup.py b/py/zaber_motion/setup.py
-index 0dfc29f0..6566b01c 100644
+index 151b1694..4b1560bc 100644
 --- a/py/zaber_motion/setup.py
 +++ b/py/zaber_motion/setup.py
-@@ -34,7 +34,7 @@ setup(
+@@ -34,26 +34,7 @@ setup(
      keywords='',
-     python_requires='>=3.6',
+     python_requires='>=3.7',
      install_requires=[
--        'protobuf==3.19.1',
-+        'protobuf>=3.19.1',
+-        'protobuf==3.20.1',
++        'protobuf>=3.20.1',
          'rx>=3.0.0'
      ],
-     extras_require={
-@@ -46,14 +46,5 @@ setup(
-             'wheel',
-             'twine==1.15.0'
-         ],
+-    extras_require={
+-        'dev': [
+-            'pytest',
+-            'pylint',
+-            'pycodestyle',
+-            'setuptools',
+-            'wheel',
+-            'twine==1.15.0'
+-        ],
 -        ':platform_system=="Windows"': [
--            'zaber_motion_bindings_windows==2.13.1'
+-            'zaber_motion_bindings_windows==2.14.0'
 -        ],
 -        ':platform_system=="Linux"': [
--            'zaber_motion_bindings_linux==2.13.1'
+-            'zaber_motion_bindings_linux==2.14.0'
 -        ],
 -        ':platform_system=="Darwin"': [
--            'zaber_motion_bindings_darwin==2.13.1'
+-            'zaber_motion_bindings_darwin==2.14.0'
 -        ]
-     }
+-    }
  )
