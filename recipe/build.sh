@@ -1,4 +1,4 @@
-set -x
+set -ex
 SHORT_OS_STR=$(uname -s)
 cd src/zaber-motion
 
