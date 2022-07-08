@@ -1,12 +1,14 @@
-import ast
+lines = []
 with open('setup.py') as f:
-    text = f.read()
+    for line in f:
+        if "zaber_motion_bindings" in line:
+            continue
+        if "protobuf" in line:
+            continue
+        if "rx" in line:
+            continue
+        lines.append(line)
 
-a = ast.parse(text)
-expr = a.body[-1]
-# Remove their install_requires and extra_requires
-# since they pin to re and libprotobuf which we manage differently
-expr.value.keywords = [k for k in expr.value.keywords
-                       if k.arg not in ["install_requires", "extras_require"]]
 with open('setup.py', 'w') as f:
-    f.write(ast.unparse(a))
+    for line in lines:
+        f.write(line)
