@@ -15,11 +15,11 @@ source:
     - patches/mypy_protobuf_2.patch
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - {{ compiler('cgo') }}
+    - {{ compiler('cgo') }}  >=1.18
     - {{ compiler('m2w64_c') }}    # [win]
     - {{ compiler('m2w64_cxx') }}  # [win]
     - {{ compiler('c') }}          # [not win]
