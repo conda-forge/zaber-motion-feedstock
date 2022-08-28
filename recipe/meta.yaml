@@ -19,7 +19,7 @@ build:
 
 requirements:
   build:
-    - {{ compiler('cgo') }}
+    - {{ compiler('cgo') }}  >=1.18
     - {{ compiler('m2w64_c') }}    # [win]
     - {{ compiler('m2w64_cxx') }}  # [win]
     - {{ compiler('c') }}          # [not win]
