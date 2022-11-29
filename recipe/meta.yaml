@@ -11,7 +11,6 @@ source:
   folder: src/zaber-motion
   patches:
     - patches/no_bindings_install.patch
-    - patches/dont_specify_python_3_in_executable_name.patch
     - patches/mypy_protobuf_2.patch
 
 build:
