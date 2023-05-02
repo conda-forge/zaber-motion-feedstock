@@ -12,5 +12,7 @@ provider:
   linux_aarch64: default
   linux_ppc64le: default
 test: native_and_emulated
+os_version:
+  linux_64: cos7
 conda_build:
   pkg_format: '2'
