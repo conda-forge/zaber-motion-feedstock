@@ -10,7 +10,7 @@ source:
   sha256: f24f66e38cd576c2bbec13fa7d7bbc49e7bb9dd1ee8b7338b1a96ea004c6c3d7
   folder: src/zaber-motion
   patches:
-    - patches/no_bindings_install.patch
+    - no_bindings_install.patch
 
 build:
   number: 0
