@@ -1,5 +1,5 @@
 diff --git a/py/zaber_motion/zaber_motion/bindings.py b/py/zaber_motion/zaber_motion/bindings.py
-index b8ad68d09..9a6f61e89 100644
+index 043761bae..9a6f61e89 100644
 --- a/py/zaber_motion/zaber_motion/bindings.py
 +++ b/py/zaber_motion/zaber_motion/bindings.py
 @@ -1,23 +1,13 @@
@@ -32,8 +32,8 @@ index b8ad68d09..9a6f61e89 100644
      if os_system == "darwin":
          ext = ".dylib"
  
--    lib_name = "zaber-motion-lib-{}-{}{}".format(os_system, arch, ext)
--    module_name = "zaber_motion_bindings_{}".format(os_system)
+-    lib_name = f"zaber-motion-lib-{os_system}-{arch}{ext}"
+-    module_name = f"zaber_motion_bindings_{os_system}"
 -    binding_module = importlib.import_module(module_name)
 -    if __version__ != binding_module.__version__:
 -        raise RuntimeError((
