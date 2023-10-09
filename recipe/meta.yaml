@@ -13,7 +13,7 @@ source:
     - no_bindings_install.patch
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
