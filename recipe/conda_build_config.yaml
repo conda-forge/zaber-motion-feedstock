@@ -13,4 +13,9 @@ libprotobuf:
 
 libgrpc:
 - '1.58'
-- '1.51'
+- '1.54'
+
+zip_keys:
+  - 
+    - libgrpc
+    - libprotobuf
