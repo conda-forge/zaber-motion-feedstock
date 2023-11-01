@@ -59,13 +59,11 @@ outputs:
         - libprotobuf
         - protobuf
         - mypy-protobuf
-        - {{ pin_subpackage('libzaber-motion', 'x.x.x') }}
       run:
         - python >=3.8
         - protobuf
         - rx
-        # - {{ pin_subpackage('libzaber-motion', 'x.x.x') }}
-        - libzaber-motion {{ version }}=*_{{ build }}
+        - {{ pin_subpackage('libzaber-motion', exact=True) }}
 
     test:
       requires:
