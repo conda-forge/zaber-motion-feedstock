@@ -6,14 +6,11 @@ MACOSX_DEPLOYMENT_TARGET:  # [osx and x86_64]
   - '10.14'                # [osx and x86_64]
 
 # 4.23.4 is the latest protobuf migration
-# 4.21.12 is the version that tensorflow 2.12 was last built with
 # 3.21 is the version that tensorflow 2.13 was last built with
 libprotobuf:
 - '4.24.3'
-- '4.23.4'
 - '3.21'
 
 libgrpc:
 - '1.58'
-- '1.57'
 - '1.51'
