@@ -4,11 +4,11 @@ MACOSX_SDK_VERSION:        # [osx and x86_64]
   - '10.14'                # [osx and x86_64]
 MACOSX_DEPLOYMENT_TARGET:  # [osx and x86_64]
   - '10.14'                # [osx and x86_64]
-c_compiler_version:        # [osx and x86_64]
-  - 14                     # [osx and x86_64]
-cxx_compiler_version:      # [osx and x86_64]
-  - 14                     # [osx and x86_64]
-c_compiler_version:        # [linux]
-  - 11                     # [linux]
-cxx_compiler_version:      # [linux]
-  - 11                     # [linux]
+
+# 4.23.4 is the latest protobuf migration
+# 4.21.12 is the version that tensorflow 2.12 was last built with
+# 3.21 is the version that tensorflow 2.13 was last built with
+libprotobuf:
+- '4.23.4'
+- '4.21.12'
+- '3.21'
