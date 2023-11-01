@@ -11,9 +11,6 @@ jobs:
       win_64_libprotobuf3.21:
         CONFIG: win_64_libprotobuf3.21
         UPLOAD_PACKAGES: 'True'
-      win_64_libprotobuf4.23.4:
-        CONFIG: win_64_libprotobuf4.23.4
-        UPLOAD_PACKAGES: 'True'
       win_64_libprotobuf4.24.3:
         CONFIG: win_64_libprotobuf4.24.3
         UPLOAD_PACKAGES: 'True'

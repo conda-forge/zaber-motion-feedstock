@@ -11,17 +11,11 @@ jobs:
       osx_64_libprotobuf3.21:
         CONFIG: osx_64_libprotobuf3.21
         UPLOAD_PACKAGES: 'True'
-      osx_64_libprotobuf4.23.4:
-        CONFIG: osx_64_libprotobuf4.23.4
-        UPLOAD_PACKAGES: 'True'
       osx_64_libprotobuf4.24.3:
         CONFIG: osx_64_libprotobuf4.24.3
         UPLOAD_PACKAGES: 'True'
       osx_arm64_libprotobuf3.21:
         CONFIG: osx_arm64_libprotobuf3.21
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_libprotobuf4.23.4:
-        CONFIG: osx_arm64_libprotobuf4.23.4
         UPLOAD_PACKAGES: 'True'
       osx_arm64_libprotobuf4.24.3:
         CONFIG: osx_arm64_libprotobuf4.24.3
