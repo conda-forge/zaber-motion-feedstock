@@ -38,738 +38,45 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_libprotobuf3.21python3.10.____cpython</td>
+              <td>linux_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf3.21python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_libprotobuf3.21python3.11.____cpython</td>
+              <td>linux_aarch64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf3.21python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_libprotobuf3.21python3.12.____cpython</td>
+              <td>linux_ppc64le</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf3.21python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_libprotobuf3.21python3.8.____cpython</td>
+              <td>osx_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf3.21python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_libprotobuf3.21python3.9.____73_pypy</td>
+              <td>osx_arm64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf3.21python3.9.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_libprotobuf3.21python3.9.____cpython</td>
+              <td>win_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf3.21python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libprotobuf4.23.4python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.23.4python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libprotobuf4.23.4python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.23.4python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libprotobuf4.23.4python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.23.4python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libprotobuf4.23.4python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.23.4python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libprotobuf4.23.4python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.23.4python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libprotobuf4.23.4python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.23.4python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libprotobuf4.24.3python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.24.3python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libprotobuf4.24.3python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.24.3python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libprotobuf4.24.3python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.24.3python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libprotobuf4.24.3python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.24.3python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libprotobuf4.24.3python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.24.3python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_libprotobuf4.24.3python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.24.3python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf3.21python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf3.21python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf3.21python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf3.21python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf3.21python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf3.21python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf3.21python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf3.21python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf3.21python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf3.21python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf3.21python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf3.21python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf4.23.4python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.23.4python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf4.23.4python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.23.4python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf4.23.4python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.23.4python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf4.23.4python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.23.4python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf4.23.4python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.23.4python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf4.23.4python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.23.4python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf4.24.3python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.24.3python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf4.24.3python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.24.3python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf4.24.3python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.24.3python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf4.24.3python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.24.3python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf4.24.3python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.24.3python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_libprotobuf4.24.3python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.24.3python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf3.21python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf3.21python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf3.21python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf3.21python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf3.21python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf3.21python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf3.21python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf3.21python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf3.21python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf3.21python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf3.21python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf3.21python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf4.23.4python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf4.23.4python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf4.23.4python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf4.23.4python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf4.23.4python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf4.23.4python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf4.23.4python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf4.23.4python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf4.23.4python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf4.23.4python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf4.23.4python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf4.23.4python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf4.24.3python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf4.24.3python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf4.24.3python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf4.24.3python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf4.24.3python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf4.24.3python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf4.24.3python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf4.24.3python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf4.24.3python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf4.24.3python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_libprotobuf4.24.3python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libprotobuf4.24.3python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf3.21python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf3.21python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf3.21python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf3.21python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf3.21python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf3.21python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf3.21python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf3.21python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf3.21python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf3.21python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf3.21python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf3.21python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf4.23.4python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.23.4python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf4.23.4python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.23.4python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf4.23.4python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.23.4python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf4.23.4python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.23.4python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf4.23.4python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.23.4python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf4.23.4python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.23.4python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf4.24.3python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.24.3python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf4.24.3python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.24.3python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf4.24.3python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.24.3python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf4.24.3python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.24.3python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf4.24.3python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.24.3python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_libprotobuf4.24.3python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.24.3python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf3.21python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf3.21python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf3.21python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf3.21python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf3.21python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf3.21python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf3.21python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf3.21python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf3.21python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf3.21python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf4.23.4python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf4.23.4python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf4.23.4python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf4.23.4python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf4.23.4python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf4.23.4python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf4.23.4python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf4.23.4python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf4.23.4python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf4.23.4python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf4.24.3python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf4.24.3python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf4.24.3python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf4.24.3python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf4.24.3python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf4.24.3python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf4.24.3python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf4.24.3python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_libprotobuf4.24.3python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf4.24.3python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf3.21python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf3.21python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf3.21python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf3.21python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf3.21python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf3.21python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf3.21python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf3.21python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf3.21python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf3.21python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf3.21python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf3.21python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf4.23.4python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.23.4python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf4.23.4python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.23.4python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf4.23.4python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.23.4python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf4.23.4python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.23.4python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf4.23.4python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.23.4python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf4.23.4python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.23.4python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf4.24.3python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.24.3python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf4.24.3python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.24.3python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf4.24.3python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.24.3python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf4.24.3python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.24.3python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf4.24.3python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.24.3python3.9.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_libprotobuf4.24.3python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.24.3python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zaber-motion-feedstock-1-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
                 </a>
               </td>
             </tr>
@@ -785,6 +92,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libzaber--motion-green.svg)](https://anaconda.org/conda-forge/libzaber-motion) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libzaber-motion.svg)](https://anaconda.org/conda-forge/libzaber-motion) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libzaber-motion.svg)](https://anaconda.org/conda-forge/libzaber-motion) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libzaber-motion.svg)](https://anaconda.org/conda-forge/libzaber-motion) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-zaber--motion-green.svg)](https://anaconda.org/conda-forge/zaber-motion) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/zaber-motion.svg)](https://anaconda.org/conda-forge/zaber-motion) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/zaber-motion.svg)](https://anaconda.org/conda-forge/zaber-motion) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/zaber-motion.svg)](https://anaconda.org/conda-forge/zaber-motion) |
 
 Installing zaber-motion
@@ -797,41 +105,41 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `zaber-motion` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `libzaber-motion, zaber-motion` can be installed with `conda`:
 
 ```
-conda install zaber-motion
-```
-
-or with `mamba`:
-
-```
-mamba install zaber-motion
-```
-
-It is possible to list all of the versions of `zaber-motion` available on your platform with `conda`:
-
-```
-conda search zaber-motion --channel conda-forge
+conda install libzaber-motion zaber-motion
 ```
 
 or with `mamba`:
 
 ```
-mamba search zaber-motion --channel conda-forge
+mamba install libzaber-motion zaber-motion
+```
+
+It is possible to list all of the versions of `libzaber-motion` available on your platform with `conda`:
+
+```
+conda search libzaber-motion --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search libzaber-motion --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search zaber-motion --channel conda-forge
+mamba repoquery search libzaber-motion --channel conda-forge
 
-# List packages depending on `zaber-motion`:
-mamba repoquery whoneeds zaber-motion --channel conda-forge
+# List packages depending on `libzaber-motion`:
+mamba repoquery whoneeds libzaber-motion --channel conda-forge
 
-# List dependencies of `zaber-motion`:
-mamba repoquery depends zaber-motion --channel conda-forge
+# List dependencies of `libzaber-motion`:
+mamba repoquery depends libzaber-motion --channel conda-forge
 ```
 
 
