@@ -12,7 +12,7 @@ source:
     - no_bindings_install.patch
 
 build:
-  number: 2
+  number: 3
 
 outputs:
   - name: libzaber-motion
