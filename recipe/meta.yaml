@@ -1,4 +1,4 @@
-{% set version = "4.5.1" %}
+{% set version = "4.6.0" %}
 
 package:
   name: zaber-motion-split
@@ -6,18 +6,18 @@ package:
 
 source:
   url: https://gitlab.com/zaber-core-libs/zaber-motion-lib/-/archive/v{{ version }}/zaber-motion-lib-v{{ version }}.tar.gz
-  sha256: 34926d8221e6bd6290955a173082c8d1712380a5c04f2bbe4af13ccdf4229dd9
+  sha256: 445cc0c4a2d4150d60e1a4f53e3102639cb06971342ad9f33eda00501fced3dc
   folder: src/zaber-motion
   patches:
     - no_bindings_install.patch
 
 build:
-  number: 3
+  number: 0
 
 outputs:
   - name: libzaber-motion
-    script: build_lib.sh   # [unix]
-    script: bld_lib.bat    # [win]
+    script: build_lib.sh  # [unix]
+    script: bld_lib.bat  # [win]
     build:
       run_exports:
         - {{ pin_subpackage('libzaber-motion', 'x.x') }}
@@ -42,8 +42,8 @@ outputs:
         - test -f ${PREFIX}/lib/zaber-motion-lib${SHLIB_EXT}  # [unix]
 
   - name: zaber-motion
-    script: build_python.sh   # [unix]
-    script: bld_python.bat    # [win]
+    script: build_python.sh  # [unix]
+    script: bld_python.bat  # [win]
     build:
       noarch: python
 
