@@ -2,11 +2,11 @@ set -ex
 cd src/zaber-motion
 
 # Now compile the python bindings
-protoc -I=. --python_out="py/zaber_motion/zaber_motion" \
+protoc -I=. --python_out="py/zaber_motion" \
   --plugin="protoc-gen-mypy=tools/protoc-gen-mypy" \
-  --mypy_out="py/zaber_motion/zaber_motion" protobufs/main.proto
+  --mypy_out="py/zaber_motion" protobufs/main.proto
 
-pushd py/zaber_motion
+pushd py
 
 # without the __init__ file, it won't install correctly
 touch zaber_motion/protobufs/__init__.py
