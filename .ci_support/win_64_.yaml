@@ -1,3 +1,7 @@
+c_stdlib:
+- vs
+c_stdlib_version:
+- '2019'
 cgo_compiler:
 - go-cgo
 channel_sources:
