@@ -1,4 +1,4 @@
-{% set version = "5.1.5" %}
+{% set version = "5.2.0" %}
 
 package:
   name: zaber-motion-split
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://gitlab.com/zaber-core-libs/zaber-motion-lib/-/archive/v{{ version }}/zaber-motion-lib-v{{ version }}.tar.gz
-  sha256: 6ea48f0458313600d54db74af5185d403d3fd6b9031655a3d8df413ad36a075b
+  sha256: 2e16b1356813ed724d208202a2175171ac60b044662e43099ea9e5997d8e646e
   folder: src/zaber-motion
   patches:
     - no_bindings_install.patch
