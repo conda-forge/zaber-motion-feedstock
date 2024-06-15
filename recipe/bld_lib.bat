@@ -14,8 +14,9 @@ if errorlevel 1 exit 1
 
 dir build
 
-mkdir %LIBRARY_BIN% /p
-mkdir %LIBRARY_INC% /p
+mkdir %LIBRARY_PREFIX%
+mkdir %LIBRARY_BIN%
+mkdir %LIBRARY_INC%
 
 copy build\%zaber_motion_lib% %LIBRARY_BIN%\.
 if errorlevel 1 exit 1
