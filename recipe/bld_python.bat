@@ -1,22 +1,16 @@
 @echo ON
 setlocal enabledelayedexpansion
-cd src/zaber-motion
 
+cd bson
+%PYTHON% -m pip install . -vv --no-build-isolation --no-deps
+cd ..
 
-rem Look at gulpfil.js, protobuf_py
-protoc -I=. --python_out="py\zaber_motion"      ^
-    --plugin="protoc-gen-mypy=tools\protoc-gen-mypy.bat"     ^
-    --mypy_out="py\zaber_motion" protobufs\main.proto
+cd src/zaber-motion/py
+
+%PYTHON% %RECIPE_DIR%\filter_setup.py
 if errorlevel 1 exit 1
 
-echo.> py\zaber_motion\protobufs\__init__.py
-if errorlevel 1 exit 1
-
-
-cd py
- %PYTHON% %RECIPE_DIR%\filter_setup.py
-if errorlevel 1 exit 1
 %PYTHON% -m pip install . -vv --no-build-isolation --no-deps
 if errorlevel 1 exit 1
-cd ..
-cd ..
+
+cd ..\..\..

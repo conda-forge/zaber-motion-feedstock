@@ -1,9 +1,9 @@
 lines = []
 with open('pyproject.toml', 'r', encoding='utf-8') as f:
     for line in f:
-        if '"protobuf' in line:
-            continue
-        if '"rx' in line:
+        # They pin very hard....
+        # just lets follow the pinning in conda
+        if 'reactivex' in line:
             continue
         lines.append(line)
 
