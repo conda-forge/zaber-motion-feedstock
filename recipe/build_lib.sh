@@ -4,7 +4,6 @@ cd src/zaber-motion
 
 # Build Go package
 export GO111MODULE=on
-protoc -I=. --go_out="internal" protobufs/main.proto
 
 zaber_motion_libname=zaber-motion-lib
 zaber_motion_lib=${zaber_motion_libname}${SHLIB_EXT}
