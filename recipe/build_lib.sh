@@ -12,4 +12,5 @@ go build -buildmode=c-shared -o ./build/${zaber_motion_lib}
 
 # Copy the files in the correct locations
 cp build/${zaber_motion_lib} $PREFIX/lib/.
+mkdir -p ${PREFIX}/include
 cp build/${zaber_motion_header} $PREFIX/include/.
