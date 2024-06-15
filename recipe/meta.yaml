@@ -1,4 +1,4 @@
-{% set version = "5.2.0" %}
+{% set version = "6.1.0" %}
 
 package:
   name: zaber-motion-split
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://gitlab.com/zaber-core-libs/zaber-motion-lib/-/archive/v{{ version }}/zaber-motion-lib-v{{ version }}.tar.gz
-  sha256: 2e16b1356813ed724d208202a2175171ac60b044662e43099ea9e5997d8e646e
+  sha256: 30ef7c055b2eb48c7208e37964b60d4b2fa2c8e468cb379f982e3870f7e9b1bb
   folder: src/zaber-motion
   patches:
     - no_bindings_install.patch
@@ -27,15 +27,15 @@ outputs:
         - protoc-gen-go
         - {{ compiler('cgo') }}
         - {{ compiler('m2w64_c') }}    # [win]
+        - {{ stdlib("m2w64_c") }}      # [win]
         - {{ compiler('m2w64_cxx') }}  # [win]
         - {{ compiler('c') }}          # [not win]
+        - {{ stdlib("c") }}            # [not win]
         - {{ compiler('cxx') }}        # [not win]
-        - sysroot_linux-64 2.17        # [linux64]
         - libprotobuf                  # [build_platform != target_platform]
       host:
         - libprotobuf
       run:
-        - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.9") }}  # [osx and x86_64]
 
     test:
       commands:
