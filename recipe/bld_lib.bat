@@ -3,8 +3,6 @@ setlocal enabledelayedexpansion
 cd src/zaber-motion
 
 set GO111MODULE=on
-protoc -I=. --go_out="internal" protobufs\main.proto
-if errorlevel 1 exit 1
 
 set zaber_motion_libname=zaber-motion-lib
 set zaber_motion_lib=%zaber_motion_libname%.dll
