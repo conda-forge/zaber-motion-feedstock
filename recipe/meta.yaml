@@ -1,15 +1,19 @@
 {% set version = "6.1.0" %}
+{% set zaber_bson_commit = "db11c31b2c1b69151648bb82150144f0b2003f29" %}
 
 package:
   name: zaber-motion-split
   version: {{ version }}
 
 source:
-  url: https://gitlab.com/zaber-core-libs/zaber-motion-lib/-/archive/v{{ version }}/zaber-motion-lib-v{{ version }}.tar.gz
-  sha256: 30ef7c055b2eb48c7208e37964b60d4b2fa2c8e468cb379f982e3870f7e9b1bb
-  folder: src/zaber-motion
-  patches:
-    - no_bindings_install.patch
+  - url: https://gitlab.com/zaber-core-libs/zaber-motion-lib/-/archive/v{{ version }}/zaber-motion-lib-v{{ version }}.tar.gz
+    sha256: 30ef7c055b2eb48c7208e37964b60d4b2fa2c8e468cb379f982e3870f7e9b1bb
+    folder: src/zaber-motion
+    patches:
+      - no_bindings_install.patch
+  # url to the github archive at a particular commit
+  - url: https://github.com/zabertech/bson/archive/{{ zaber_bson_commit }}.tar.gz
+    folder: bson
 
 build:
   number: 0
