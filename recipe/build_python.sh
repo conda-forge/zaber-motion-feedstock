@@ -1,9 +1,11 @@
 set -ex
-cd src/zaber-motion
 
-pushd py
+pushd bson
+$PYTHON -m pip install . -vv --no-build-isolation --no-deps
+popd
 
+pushd src/zaber-motion/py
 $PYTHON $RECIPE_DIR/filter_setup.py
-$PYTHON -m pip install . -vv
+$PYTHON -m pip install . -vv --no-build-isolation --no-deps
 popd
 
