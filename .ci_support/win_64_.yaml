@@ -4,8 +4,6 @@ channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
-libprotobuf:
-- 4.25.3
 m2w64_c_compiler:
 - m2w64-toolchain
 m2w64_c_stdlib:
