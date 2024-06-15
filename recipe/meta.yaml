@@ -56,6 +56,8 @@ outputs:
       host:
         - python >=3.8
         - pip
+        # For bson installation
+        - pdm-backend
       run:
         - python >=3.8
         # https://gitlab.com/ZaberTech/zaber-motion-lib/-/blob/master/py/pyproject.toml?ref_type=heads#L13
