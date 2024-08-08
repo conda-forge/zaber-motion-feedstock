@@ -62,7 +62,7 @@ outputs:
         # https://gitlab.com/ZaberTech/zaber-motion-lib/-/blob/master/py/pyproject.toml?ref_type=heads#L13
         # But lets loosen thing just a tiny bit
         - reactivex 4.0.*
-        - {{ pin_subpackage('libzaber-motion', exact=True) }}
+        - {{ pin_subpackage('libzaber-motion', max_pin="x.x.x") }}
 
     test:
       requires:
