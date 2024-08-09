@@ -1,4 +1,4 @@
-{% set version = "6.4.0" %}
+{% set version = "6.4.2" %}
 {% set zaber_bson_commit = "db11c31b2c1b69151648bb82150144f0b2003f29" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://gitlab.com/zaber-core-libs/zaber-motion-lib/-/archive/v{{ version }}/zaber-motion-lib-v{{ version }}.tar.gz
-    sha256: f622530d7bc6458a9c971298c207fd0e4f6eb154c15a5fa9470d389c3bcd9296
+    sha256: 8abce94a46c3cae455921577558ac9d03926fc504d6ad7f02bb180015f33a9a9
     folder: src/zaber-motion
     patches:
       - no_bindings_install.patch
@@ -26,7 +26,7 @@ outputs:
     script: bld_lib.bat  # [win]
     build:
       run_exports:
-        - {{ pin_subpackage('libzaber-motion', 'x.x') }}
+        - {{ pin_subpackage('libzaber-motion', max_pin='x.x') }}
 
     requirements:
       build:
@@ -47,10 +47,11 @@ outputs:
     script: bld_python.bat  # [win]
     build:
       noarch: python
+      skip: true   # [not linux64]
 
     requirements:
       build:
-        - python                                 # [build_platform != target_platform]
+        - python >=3.8                           # [build_platform != target_platform]
         - cross-python_{{ target_platform }}     # [build_platform != target_platform]
       host:
         - python >=3.8
@@ -62,7 +63,7 @@ outputs:
         # https://gitlab.com/ZaberTech/zaber-motion-lib/-/blob/master/py/pyproject.toml?ref_type=heads#L13
         # But lets loosen thing just a tiny bit
         - reactivex 4.0.*
-        - {{ pin_subpackage('libzaber-motion', exact=True) }}
+        - {{ pin_subpackage('libzaber-motion', max_pin='x.x.x') }}
 
     test:
       requires:
