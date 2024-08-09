@@ -47,6 +47,7 @@ outputs:
     script: bld_python.bat  # [win]
     build:
       noarch: python
+      skip: true   # [not linux64]
 
     requirements:
       build:
