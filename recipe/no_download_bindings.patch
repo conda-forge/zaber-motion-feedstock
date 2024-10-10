@@ -7,6 +7,6 @@ index 5a4dc74ec..30597feeb 100644
      if not os.environ.get("SETUP_SKIP_ZML_BINDINGS"):
          version = get_version()
 -        download_bindings(version)
-
+ 
      setuptools.setup()
-
+ 
