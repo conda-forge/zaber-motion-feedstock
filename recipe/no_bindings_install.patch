@@ -1,12 +1,12 @@
 diff --git a/py/zaber_motion/bindings.py b/py/zaber_motion/bindings.py
-index 758b5dbc5..7888fd9a7 100644
+index fd81b1b0f..954f3feb8 100644
 --- a/py/zaber_motion/bindings.py
 +++ b/py/zaber_motion/bindings.py
-@@ -28,12 +28,8 @@ def _load_library() -> Any:
+@@ -27,12 +27,8 @@ def _load_library() -> Any:
      else:
          raise ImportError(f"Unsupported operating system {os_system}")
  
--    lib_name = f"zaber-motion-lib-{os_system}-{arch}{ext}"
+-    lib_name = f"zaber-motion-core-{os_system}-{arch}{ext}"
 -    lib_path = os.path.join(os.path.dirname(__file__), "..", "zaber_motion_bindings", lib_name)
 -
 -    if not os.path.exists(lib_path):
