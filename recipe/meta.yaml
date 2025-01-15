@@ -10,8 +10,8 @@ source:
     sha256: dab7502769be1287426c55cbb5caa948a7516e953bafb152d2063b8e508e17ff
     folder: src/zaber-motion
     patches:
-      - no_bindings_install.patch
-      - no_download_bindings.patch
+      - patches/0001-Do-not-install-bindings-the-way-tey-do-upstream.patch
+      - patches/0002-Do-not-download-bindings-during-setup.patch
   # url to the github archive at a particular commit
   - url: https://github.com/zabertech/bson/archive/{{ zaber_bson_commit }}.tar.gz
     sha256: e97301964ea85bb1dfed6872287e83c8de58730bd2c1393105f73a3875c960bf

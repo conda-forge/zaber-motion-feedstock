@@ -1,0 +1,24 @@
+From ed1b95789afb7cfda973fb082235f15d85e67139 Mon Sep 17 00:00:00 2001
+From: Mark Harfouche <mark.harfouche@gmail.com>
+Date: Wed, 15 Jan 2025 00:03:34 -0500
+Subject: [PATCH 2/2] Do not download bindings during setup
+
+---
+ py/setup.py | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/py/setup.py b/py/setup.py
+index 5a4dc74ec..30597feeb 100644
+--- a/py/setup.py
++++ b/py/setup.py
+@@ -39,7 +39,6 @@ def download_bindings(version):
+ def setup():
+     if not os.environ.get("SETUP_SKIP_ZML_BINDINGS"):
+         version = get_version()
+-        download_bindings(version)
+ 
+     setuptools.setup()
+ 
+-- 
+2.43.0
+
