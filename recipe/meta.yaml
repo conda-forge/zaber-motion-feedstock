@@ -1,6 +1,12 @@
 {% set version = "7.2.3" %}
 {% set zaber_bson_commit = "db11c31b2c1b69151648bb82150144f0b2003f29" %}
 
+# Workaround needed as of 2025/01/22
+# https://github.com/conda-forge/conda-smithy/pull/2227
+{% if python_min is undefined %}
+{% set python_min = "3.9" %}
+{% endif %}
+
 package:
   name: zaber-motion-split
   version: {{ version }}
@@ -18,7 +24,7 @@ source:
     folder: bson
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - name: libzaber-motion
@@ -51,16 +57,16 @@ outputs:
 
     requirements:
       build:
-        - python >=3.8                           # [build_platform != target_platform]
+        - python {{ python_min }}                # [build_platform != target_platform]
         - cross-python_{{ target_platform }}     # [build_platform != target_platform]
       host:
-        - python >=3.8
+        - python {{ python_min }}
         - pip
         - setuptools
         # For bson installation
         - pdm-backend
       run:
-        - python >=3.8
+        - python >={{ python_min }}
         # https://gitlab.com/ZaberTech/zaber-motion-lib/-/blob/master/py/pyproject.toml?ref_type=heads#L13
         # But lets loosen thing just a tiny bit
         - reactivex 4.0.*
@@ -69,6 +75,7 @@ outputs:
     test:
       requires:
         - pip
+        - python {{ python_min }}
       commands:
         - pip check
       imports:
