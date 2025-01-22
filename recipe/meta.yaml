@@ -1,6 +1,12 @@
 {% set version = "7.2.3" %}
 {% set zaber_bson_commit = "db11c31b2c1b69151648bb82150144f0b2003f29" %}
 
+# Workaround needed as of 2025/01/22
+# https://github.com/conda-forge/conda-smithy/pull/2227
+{% if python_min is undefined %}
+{% set python_min = "3.9" %}
+{% endif %}
+
 package:
   name: zaber-motion-split
   version: {{ version }}
