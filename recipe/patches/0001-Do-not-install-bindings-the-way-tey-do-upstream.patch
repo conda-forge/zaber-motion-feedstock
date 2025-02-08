@@ -1,14 +1,14 @@
-From cb3bc6aac1e0d3c12f7f4a8d7d8becd143b3e3e1 Mon Sep 17 00:00:00 2001
+From 9e4d079805179ecddb8563afd6ec6b4ccfaad07d Mon Sep 17 00:00:00 2001
 From: Mark Harfouche <mark.harfouche@gmail.com>
 Date: Sat, 8 Feb 2025 09:53:25 -0500
 Subject: [PATCH] Do not install bindings the way tey do upstream
 
 ---
- py/zaber_motion/bindings.py | 9 +--------
- 1 file changed, 1 insertion(+), 8 deletions(-)
+ py/zaber_motion/bindings.py | 11 ++---------
+ 1 file changed, 2 insertions(+), 9 deletions(-)
 
 diff --git a/py/zaber_motion/bindings.py b/py/zaber_motion/bindings.py
-index f13036a6d..a27295f2b 100644
+index f13036a6d..4b97e58be 100644
 --- a/py/zaber_motion/bindings.py
 +++ b/py/zaber_motion/bindings.py
 @@ -1,6 +1,5 @@
@@ -18,7 +18,7 @@ index f13036a6d..a27295f2b 100644
  import platform
  import sys
  
-@@ -27,13 +26,7 @@ def _load_library() -> Any:
+@@ -27,14 +26,8 @@ def _load_library() -> Any:
      else:
          raise ImportError(f"Unsupported operating system {os_system}")
  
@@ -29,10 +29,12 @@ index f13036a6d..a27295f2b 100644
 -    if not path.exists(lib_path):
 -        lib_dir = path.dirname(lib_path)
 -        raise ImportError(f"Could not find library {lib_name} at path {lib_dir}. Please contact Zaber support.")
+-    return cdll.LoadLibrary(lib_path)
 +    lib_name = f"zaber-motion-lib{ext}"
-     return cdll.LoadLibrary(lib_name)
++    return cdll.LoadLibrary(lib_name)
  
  
+ lib = _load_library()
 -- 
 2.43.0
 
