@@ -30,7 +30,7 @@ index f13036a6d..a27295f2b 100644
 -        lib_dir = path.dirname(lib_path)
 -        raise ImportError(f"Could not find library {lib_name} at path {lib_dir}. Please contact Zaber support.")
 +    lib_name = f"zaber-motion-lib{ext}"
-     return cdll.LoadLibrary(lib_path)
+     return cdll.LoadLibrary(lib_name)
  
  
 -- 
