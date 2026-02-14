@@ -1,4 +1,4 @@
-{% set version = "8.0.2" %}
+{% set version = "8.2.0" %}
 {% set zaber_bson_commit = "db11c31b2c1b69151648bb82150144f0b2003f29" %}
 
 # Workaround needed as of 2025/01/22
@@ -13,7 +13,7 @@ package:
 
 source:
   - url: https://gitlab.com/zaber-core-libs/zaber-motion-lib/-/archive/v{{ version }}/zaber-motion-lib-v{{ version }}.tar.gz
-    sha256: 9d0125d1398a94a0fb19b27c3752065af5d08e30f8c37da1e18d8871940c1c90
+    sha256: 7d4f0516f26786496995145ac4f3355f778e63c53df75adb4d5386498f256db7
     folder: src/zaber-motion
     patches:
       - patches/0001-Do-not-install-bindings-the-way-tey-do-upstream.patch
