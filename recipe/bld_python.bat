@@ -1,11 +1,11 @@
 @echo ON
 setlocal enabledelayedexpansion
 
-cd bson
+pushd bson
 %PYTHON% -m pip install . -vv --no-build-isolation --no-deps
-cd ..
+popd
 
-cd src/zaber-motion/py
+pushd src/zaber-motion/py
 
 %PYTHON% %RECIPE_DIR%\filter_setup.py
 if errorlevel 1 exit 1
@@ -13,4 +13,8 @@ if errorlevel 1 exit 1
 %PYTHON% -m pip install . -vv --no-build-isolation --no-deps
 if errorlevel 1 exit 1
 
-cd ..\..\..
+popd
+
+REM Ensures that conda list reports that the package is installed by conda and not by pypi
+type %SP_DIR%\zaber_bson-0.1.0.dist-info\RECORD >> %SP_DIR%\zaber_motion-%PKG_VERSION%.dist-info\RECORD
+del %SP_DIR%\zaber_bson-0.1.0.dist-info\RECORD
