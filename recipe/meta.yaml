@@ -35,7 +35,13 @@ outputs:
         - {{ stdlib('m2w64_c') }}      # [win]
         - {{ compiler('c') }}          # [not win]
         - {{ stdlib('c') }}            # [not win]
+        # Temporary, revert once conda-forge/m2w64-sysroot-feedstock#23 is resolved
+        - gcc_impl_win-64 ==15.3.0 h9a1039e_1                # [win]
+        - libgcc ==16.1.0 h110b43a_1                         # [win]
       host:
+        # Temporary, revert once conda-forge/m2w64-sysroot-feedstock#23 is resolved
+        - libgcc ==16.1.0 h110b43a_1                         # [win]
+        - libwinpthread ==12.0.0.r4.gg4f2fc60ca h57928b3_10  # [win]
       run:
 
     test:
